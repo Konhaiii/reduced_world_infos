@@ -1,0 +1,27 @@
+{
+	"item.reduced_world_infos.altimeter": "Altimeter",
+	"item.reduced_world_infos.attuned_clock": "Attuned Clock",
+	"item.reduced_world_infos.biome_recognizer": "Biome Recognizer",
+	"item.reduced_world_infos.calibration_shard": "Calibration Shard",
+	"item.reduced_world_infos.light_meter": "Light Meter",
+	"item.reduced_world_infos.logbook": "Logbook",
+	"item.reduced_world_infos.calibrated_logbook": "Calibrated Logbook",
+
+	"item.reduced_world_infos.calibration_shard.desc1":  "Converts your logbook relatives coordinates",
+	"item.reduced_world_infos.calibration_shard.desc2":  "into global coordinates.",
+	"item.reduced_world_infos.logbook.desc1":  "Current mode:",
+	"item.reduced_world_infos.logbook.desc2":  "Hold %s to reset the origin.",
+	"item.reduced_world_infos.logbook.desc3":  "Place a measuring tool in your other hand and",
+	"item.reduced_world_infos.logbook.desc4":  "hold %s to combine it with your logbook.",
+	"item.reduced_world_infos.logbook.desc5":  "Use %s + %s to change mode.",
+
+	"item.reduced_world_infos.logbook_mode.desc1":  "Relative Coordinates",
+	"item.reduced_world_infos.logbook_mode.desc2":  "Number of Days",
+	"item.reduced_world_infos.logbook_mode.desc3":  "Biome Name",
+	"item.reduced_world_infos.logbook_mode.desc4":  "Global Coordinates",
+	"item.reduced_world_infos.logbook_mode.desc5":  "Time of Day",
+	"item.reduced_world_infos.logbook_mode.desc6":  "Cardinal Direction",
+	"item.reduced_world_infos.logbook_mode.desc7":  "Light Level",
+
+	"itemGroup.reduced_world_infos": "Reduced World Infos"
+}

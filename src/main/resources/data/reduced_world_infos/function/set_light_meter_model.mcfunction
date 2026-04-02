@@ -1,0 +1,3 @@
+$data modify storage reduced_world_infos light set value $(light)
+$execute if items entity @s weapon.mainhand reduced_world_infos:light_meter run item modify entity @s weapon.mainhand reduced_world_infos:light_meter/light_meter_0$(converted_light)
+$execute if items entity @s weapon.offhand reduced_world_infos:light_meter run item modify entity @s weapon.offhand reduced_world_infos:light_meter/light_meter_0$(converted_light)

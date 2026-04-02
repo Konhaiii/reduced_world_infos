@@ -1,0 +1,2 @@
+data modify entity @s Offers.Recipes[{sell:{id:"minecraft:compass"}}].sell set value {id:"minecraft:compass",count:1,components:{"minecraft:item_name":'"Compass"',"minecraft:enchantment_glint_override":false,"minecraft:lodestone_tracker":{target:{dimension:"minecraft:overworld",pos:[I;0,0,-973078528]},tracked:false}}}
+tag @s add CompassTradeChanged

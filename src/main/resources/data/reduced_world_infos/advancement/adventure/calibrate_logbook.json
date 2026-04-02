@@ -1,0 +1,30 @@
+{
+	"parent": "reduced_world_infos:adventure/craft_logbook",
+	"criteria": {
+		"calibrate_logbook": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Upgrade your logbook with a calibration shard"
+		},
+		"frame": "goal",
+		"icon": {
+			"count": 1,
+			"id": "reduced_world_infos:logbook",
+			"components": {
+				"minecraft:item_model": "reduced_world_infos:calibrated_logbook"
+			}
+		},
+		"title": {
+			"text": "Very Informative"
+		}
+	},
+	"requirements": [
+		[
+			"calibrate_logbook"
+		]
+	],
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "reduced_world_infos",
+	"version": "${version}",
+	"name": "Reduced World Infos",
+	"description": "Adds more immersive alternatives to the debug menu",
+	"authors": [
+		"Konhaiii"
+	],
+	"contact": {
+		"homepage": "https://github.com/Konhaiii/reduced_world_infos",
+		"sources": "https://github.com/Konhaiii/reduced_world_infos",
+		"issues": "https://github.com/Konhaiii/reduced_world_infos/issues"
+	},
+	"license": "CC-BY-NC-4.0",
+	"icon": "assets/reduced_world_infos/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"konhaiii.reduced_world_infos.ReducedWorldInfos"
+		],
+		"client": [
+			"konhaiii.reduced_world_infos.ReducedWorldInfosClient"
+		]
+	},
+	"mixins": [
+		"reduced_world_infos.mixins.json",
+		{
+			"config": "reduced_world_infos.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

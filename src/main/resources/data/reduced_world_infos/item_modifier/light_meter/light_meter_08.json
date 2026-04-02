@@ -1,0 +1,6 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:item_model": "reduced_world_infos:light_meter_08"
+	}
+}

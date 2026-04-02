@@ -1,0 +1,6 @@
+{
+	"function": "minecraft:set_custom_data",
+	"tag": {
+		"biome_recognizer": 1
+	}
+}

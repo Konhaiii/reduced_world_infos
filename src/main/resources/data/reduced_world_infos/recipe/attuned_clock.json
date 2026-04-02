@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" X ",
+		"X#X",
+		" X "
+	],
+	"key": {
+		"X": "minecraft:amethyst_shard",
+		"#": "minecraft:clock"
+	},
+	"result": {
+		"id": "reduced_world_infos:attuned_clock"
+	}
+}

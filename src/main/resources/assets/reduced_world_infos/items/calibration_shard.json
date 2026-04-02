@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "reduced_world_infos:item/calibration_shard"
+  }
+}

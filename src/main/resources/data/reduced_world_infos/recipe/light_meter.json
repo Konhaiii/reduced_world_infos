@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" X ",
+		"X#X",
+		" X "
+	],
+	"key": {
+		"X": "minecraft:copper_ingot",
+		"#": "minecraft:redstone"
+	},
+	"result": {
+		"id": "reduced_world_infos:light_meter"
+	}
+}

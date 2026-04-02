@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"requirement"
+		]
+	],
+	"rewards": {
+		"function": "reduced_world_infos:advancement/on_inventory_changed"
+	}
+}

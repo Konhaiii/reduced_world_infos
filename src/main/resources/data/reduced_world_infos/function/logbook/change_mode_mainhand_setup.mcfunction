@@ -1,0 +1,8 @@
+function reduced_world_infos:logbook/change_mode_mainhand
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{current_mode:"attuned_clock"}] if items entity @s weapon.mainhand *[!minecraft:custom_data~{attuned_clock:1b}] run function reduced_world_infos:logbook/change_mode_mainhand
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{current_mode:"biome_recognizer"}] if items entity @s weapon.mainhand *[!minecraft:custom_data~{biome_recognizer:1b}] run function reduced_world_infos:logbook/change_mode_mainhand
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{current_mode:"calibration_shard"}] if items entity @s weapon.mainhand *[!minecraft:custom_data~{calibration_shard:1b}] run function reduced_world_infos:logbook/change_mode_mainhand
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{current_mode:"clock"}] if items entity @s weapon.mainhand *[!minecraft:custom_data~{clock:1b}] run function reduced_world_infos:logbook/change_mode_mainhand
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{current_mode:"compass"}] if items entity @s weapon.mainhand *[!minecraft:custom_data~{compass:1b}] run function reduced_world_infos:logbook/change_mode_mainhand
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{current_mode:"light_meter"}] if items entity @s weapon.mainhand *[!minecraft:custom_data~{light_meter:1b}] run function reduced_world_infos:logbook/change_mode_mainhand

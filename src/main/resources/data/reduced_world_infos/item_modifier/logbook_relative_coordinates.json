@@ -1,0 +1,16 @@
+{
+	"function": "minecraft:copy_custom_data",
+	"source": "this",
+	"ops": [
+		{
+			"source": "Pos[0]",
+			"target": "relative_x",
+			"op": "replace"
+		},
+		{
+			"source": "Pos[2]",
+			"target": "relative_z",
+			"op": "replace"
+		}
+	]
+}

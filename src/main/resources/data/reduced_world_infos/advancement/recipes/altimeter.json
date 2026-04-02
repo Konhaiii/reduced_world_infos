@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:gold_ingot"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"reduced_world_infos:altimeter"
+		]
+	}
+}

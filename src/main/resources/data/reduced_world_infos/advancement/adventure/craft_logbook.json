@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"obtain_logbook": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "reduced_world_infos:logbook"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Craft a logbook"
+		},
+		"icon": {
+			"count": 1,
+			"id": "reduced_world_infos:logbook"
+		},
+		"title": {
+			"text": "Explorer's Best Friend"
+		}
+	},
+	"requirements": [
+		[
+			"obtain_logbook"
+		]
+	],
+	"sends_telemetry_event": false
+}

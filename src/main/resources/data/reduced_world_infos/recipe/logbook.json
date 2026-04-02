@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:map",
+		"minecraft:writable_book"
+	],
+	"result": {
+		"id": "reduced_world_infos:logbook"
+	}
+}

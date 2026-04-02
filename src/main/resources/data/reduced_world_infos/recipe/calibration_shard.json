@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:amethyst_shard",
+		"minecraft:diamond",
+		"minecraft:emerald"
+	],
+	"result": {
+		"id": "reduced_world_infos:calibration_shard"
+	}
+}

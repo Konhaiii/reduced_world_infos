@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "reduced_world_infos:logbook"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "reduced_world_infos:advancement/use_logbook"
+	}
+}

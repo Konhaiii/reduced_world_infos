@@ -1,0 +1,8 @@
+[
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"current_mode": "attuned_clock"
+		}
+	}
+]
