@@ -11,5 +11,5 @@ execute if score $rotationY reduced_world_infos-rY matches 1125..1574 run data m
 execute if score $rotationY reduced_world_infos-rY matches 1575.. run data modify storage reduced_world_infos facing set value "North"
 
 #show infos
-title @s actionbar [{"text":"Direction: ","color":"white"},{"nbt":"facing","storage":"reduced_world_infos","color":"yellow"}]
+title @s actionbar [{"text":"Direction: ","color":"white"},{"plain":true,"nbt":"facing","storage":"reduced_world_infos","color":"yellow"}]
 tag @s add reduced_world_infos-using_action_bar

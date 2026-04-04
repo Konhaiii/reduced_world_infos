@@ -66,5 +66,5 @@ execute at @s if predicate reduced_world_infos:biome/windswept_savanna run data 
 execute at @s if predicate reduced_world_infos:biome/wooded_badlands run data modify storage reduced_world_infos biome set value "Wooded Badlands"
 
 #show infos
-title @s actionbar [{"text": "Biome: ","color":"white"},{"nbt":"biome","storage":"reduced_world_infos","color":"yellow"}]
+title @s actionbar [{"text": "Biome: ","color":"white"},{"plain":true,"nbt":"biome","storage":"reduced_world_infos","color":"yellow"}]
 tag @s add reduced_world_infos-using_action_bar

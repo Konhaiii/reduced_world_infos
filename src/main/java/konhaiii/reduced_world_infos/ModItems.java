@@ -1,6 +1,5 @@
 package konhaiii.reduced_world_infos;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -52,10 +51,10 @@ public class ModItems {
 	}
 
 	public static final ResourceKey<CreativeModeTab> REDUCED_WORLD_INFOS_CREATIVE_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(ReducedWorldInfos.MOD_ID, "creative_tab"));
-	public static final CreativeModeTab REDUCED_WORLD_INFOS_CREATIVE_TAB = FabricItemGroup.builder()
+	public static final CreativeModeTab REDUCED_WORLD_INFOS_CREATIVE_TAB = CreativeModeTab.builder(CreativeModeTab.Row.TOP, 1)
 			.icon(() -> new ItemStack(ModItems.LOGBOOK))
 			.title(Component.translatable("itemGroup.reduced_world_infos"))
-			.displayItems((params, output) -> {
+			.displayItems((_, output) -> {
 				output.accept(LOGBOOK);
 				output.accept(ALTIMETER);
 				output.accept(ATTUNED_CLOCK);

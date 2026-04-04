@@ -1,4 +1,4 @@
-package konhaiii.reduced_world_infos;
+package konhaiii.reduced_world_infos.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

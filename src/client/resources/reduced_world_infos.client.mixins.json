@@ -1,11 +1,14 @@
 {
 	"required": true,
-	"package": "konhaiii.reduced_world_infos.mixin.client",
-	"compatibilityLevel": "JAVA_21",
+	"package": "konhaiii.reduced_world_infos.client.mixin",
+	"compatibilityLevel": "JAVA_25",
 	"client": [
 		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
 	}
 }

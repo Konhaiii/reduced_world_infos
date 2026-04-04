@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.component.TooltipDisplay;
+import org.jspecify.annotations.NonNull;
 
 import java.util.function.Consumer;
 
@@ -18,8 +19,9 @@ public class ModTooltipItems extends Item {
 		super(properties);
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
-	public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay displayComponent, Consumer<Component> textConsumer, TooltipFlag type) {
+	public void appendHoverText(ItemStack stack, @NonNull TooltipContext context, @NonNull TooltipDisplay displayComponent, @NonNull Consumer<Component> textConsumer, @NonNull TooltipFlag type) {
 		if (stack.getItem() == ModItems.CALIBRATION_SHARD) {
 			textConsumer.accept(Component.translatable("item.reduced_world_infos.calibration_shard.desc1").withStyle(ChatFormatting.GRAY));
 			textConsumer.accept(Component.translatable("item.reduced_world_infos.calibration_shard.desc2").withStyle(ChatFormatting.GRAY));

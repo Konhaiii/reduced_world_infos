@@ -17,5 +17,5 @@ execute at @s if predicate reduced_world_infos:light_level/14 run function reduc
 execute at @s if predicate reduced_world_infos:light_level/15 run function reduced_world_infos:set_light_meter_model {light:15,converted_light:9}
 
 #show infos
-title @s actionbar [{"text":"Light Level: ","color":"white"},{"nbt":"light","storage":"reduced_world_infos","color":"yellow"}]
+title @s actionbar [{"text":"Light Level: ","color":"white"},{"plain":true,"nbt":"light","storage":"reduced_world_infos","color":"yellow"}]
 tag @s add reduced_world_infos-using_action_bar

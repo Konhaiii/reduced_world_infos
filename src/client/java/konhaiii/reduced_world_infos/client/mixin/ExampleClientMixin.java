@@ -1,4 +1,4 @@
-package konhaiii.reduced_world_infos.mixin.client;
+package konhaiii.reduced_world_infos.client.mixin;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.renderer.item.properties.numeric.CompassAngleState;
@@ -22,14 +22,14 @@ public abstract class ExampleClientMixin {
 	private CompassAngleState.CompassTarget compassTarget;
 
 	@Inject(method = "calculate", at = @At("HEAD"), cancellable = true)
-	private void compassNorthOnlyForSpawn(ItemStack stack, ClientLevel level, int seed, ItemOwner owner, CallbackInfoReturnable<Float> cir) {
+	private void compassNorthOnlyForSpawn(ItemStack itemStack, ClientLevel level, int seed, ItemOwner owner, CallbackInfoReturnable<Float> cir) {
 		if (owner == null) return;
 
 		if (this.compassTarget != CompassAngleState.CompassTarget.SPAWN) {
 			return;
 		}
 
-		LodestoneTracker tracker = stack.get(DataComponents.LODESTONE_TRACKER);
+		LodestoneTracker tracker = itemStack.get(DataComponents.LODESTONE_TRACKER);
 		if (tracker != null && tracker.target().isPresent()) {
 			return;
 		}

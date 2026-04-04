@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"package": "konhaiii.reduced_world_infos.mixin",
-	"compatibilityLevel": "JAVA_21",
+	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin"
 	],
