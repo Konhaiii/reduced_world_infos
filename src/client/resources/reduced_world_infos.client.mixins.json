@@ -2,7 +2,9 @@
 	"required": true,
 	"package": "konhaiii.reduced_world_infos.client.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"client": [],
+	"client": [
+		"CompassDirectionMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
